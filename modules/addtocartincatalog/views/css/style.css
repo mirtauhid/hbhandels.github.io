@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+.addToCartForm {
+	margin-top: 10px;
+}
+.addToCartButtonNumber {
+	padding: 9px 10px; 
+	float:left;
+	width: 20%;
+	margin-left: 13px;
+	height: 2.75rem;
+}
+.addToCartButtonBox {
+	margin: 0 auto 30px !important;
+	height: 2.75rem;
+	display: block;
+	font-weight: 600 !important;
+	font-size: 1rem !important;
+	-moz-osx-font-smoothing: grayscale !important;
+	font-family: "Open Sans",sans-serif !important;
+	box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.1) !important;
+	border: none;
+}
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 1em;
+	height: 1em;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-feature-settings: 'liga';
+}
+.addToCartButtonBox.radius{
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.preLoading {
+	position : absolute;
+	top : 0;
+	bottom : 0;
+	left : 0px;
+	right : 0px;
+	background : rgba(0,0,0,0.6) !important;
+	background-image : url(../img/spinner.gif) !important;
+	z-index : 999;
+	border : none !important;
+	background-size: 40px !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+.preLoading.radius{
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
